@@ -252,10 +252,10 @@ No Windows, plugins são compilados pelo Visual Studio. Recomenda-se usar um plu
 * plugin.c - seu plugin
 * plugin.def - um simples arquivo de texto contendo o seguinte (hexchat_plugin_deinit é opcional):
  
-EXPORTS
-hexchat_plugin_init
-hexchat_plugin_deinit
-hexchat_plugin_get_info
+EXPORTS  
+ hexchat_plugin_init  
+ hexchat_plugin_deinit  
+ hexchat_plugin_get_info  
  
 Daí, basta compilar o plugin no Visual Studio normalmente.
  
